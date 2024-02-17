@@ -1171,7 +1171,7 @@ body.modal-open {
     position: relative;
     width: 100%;
     height: 300px; /* Height set to 300px */
-    background-image: url('file:///D:/Wedding/wedding-website-master/img/eng_pics/IMG19.jpg'); /* Replace with your image URL */
+    background-image: url('../img/eng_pics/IMG19.JPG'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
    
