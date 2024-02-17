@@ -303,9 +303,7 @@ section .header {
 .wp6,
 .wp7,
 .wp8,
-.wp9 {
-    visibility: hidden
-}
+
 
 .wp8,
 .wp9 {
@@ -403,14 +401,7 @@ section .header {
     transform: translatey(-10px) rotate(-45deg)
 }
 
-.navicon {
-    position: absolute;
-    height: 26px;
-    right: 10px;
-    top: 48px;
-    visibility: hidden;
-    transition: all 300ms ease-in-out
-}
+
 
 .hero {
     min-height: 1100px;
@@ -1176,16 +1167,20 @@ body.modal-open {
     background-position: center;
    
     text-align: center;
-    
+    align-items: center;
     justify-content: center;
+    font-family: "Arial", sans-serif;
 }
 #background-container1 h5{
     font-size: 34px;
-    color: white; 
+    color: rgb(239, 221, 124);
+    font-family: "Times New Roman", serif;
+    
 }
 
 #background-container1 p {
     font-size: 24px; /* Change font size as per your preference */
     font-weight: bold; /* Increase font weight */
     color: white; /* Set text color */
+  
 }
